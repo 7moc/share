@@ -1,11 +1,7 @@
-<!-- 新 Bootstrap 核心 CSS 文件 -->
-<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
- 
-<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
- 
-<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- 引入样式 -->
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<!-- 引入组件库 -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
 
 
 <div>1、请点击右下脚的图标进行在线咨询</div><br/>
@@ -20,41 +16,35 @@
 
 <script id="TelegramLiveChatLoader" data-bot="272CEAA6-02FA-11EA-B7B5-6FDA22E822B5" src="//livechatbot.net/assets/chat/js/loader.js"></script>
 </div>
-<div class="container">
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<div class="alert alert-success alert-dismissable">
-				 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-				<h4>
-					注意!
-				</h4> <strong>Warning!</strong> Best check yo self, you're not looking too good. <a href="#" class="alert-link">alert link</a>
-			</div>
-			<ul>
-				<li>
-					Lorem ipsum dolor sit amet
-				</li>
-				<li>
-					Consectetur adipiscing elit
-				</li>
-				<li>
-					Integer molestie lorem at massa
-				</li>
-				<li>
-					Facilisis in pretium nisl aliquet
-				</li>
-				<li>
-					Nulla volutpat aliquam velit
-				</li>
-				<li>
-					Faucibus porta lacus fringilla vel
-				</li>
-				<li>
-					Aenean sit amet erat nunc
-				</li>
-				<li>
-					Eget porttitor lorem
-				</li>
-			</ul>
-		</div>
-	</div>
-</div>
+<el-button type="text" @click="dialogVisible = true">点击打开 Dialog</el-button>
+
+<el-dialog
+  title="提示"
+  :visible.sync="dialogVisible"
+  width="30%"
+  :before-close="handleClose">
+  <span><script id="TelegramLiveChatLoader" data-bot="272CEAA6-02FA-11EA-B7B5-6FDA22E822B5" src="//livechatbot.net/assets/chat/js/loader.js"></script>/span>
+  <span slot="footer" class="dialog-footer">
+    <el-button @click="dialogVisible = false">取 消</el-button>
+    <el-button type="primary" @click="dialogVisible = false">确 定</el-button>
+  </span>
+</el-dialog>
+
+<script>
+  export default {
+    data() {
+      return {
+        dialogVisible: false
+      };
+    },
+    methods: {
+      handleClose(done) {
+        this.$confirm('确认关闭？')
+          .then(_ => {
+            done();
+          })
+          .catch(_ => {});
+      }
+    }
+  };
+</script>
