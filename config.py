@@ -1,5 +1,6 @@
 a=100
 b=200
+c=300
 
 def get_plus(a,b):
   return(a+b)
