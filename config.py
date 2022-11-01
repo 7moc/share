@@ -4,4 +4,8 @@ b=200
 def get_plus(a,b):
   return(a+b)
 
-print(100)
+
+
+def get_max(a,b):
+  return max(a,b)
+
