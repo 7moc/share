@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         简化亚马逊和1688网址
 // @namespace    http://tampermonkey.net/
-// @version      1.11
+// @version      1.12
 // @description  Automatically simplify Amazon and 1688 URLs to include just the essential parts on page load.
 // @author       You
 // @match        https://www.amazon.com/*/dp/*
 // @match        https://detail.1688.com/offer/*
 // @match        https://*.1688.com/page/*
-// @updateURL    https://raw.githubusercontent.com/yourusername/your-repo-name/main/simple_1688_amazon_url.user.js
-// @downloadURL  https://raw.githubusercontent.com/yourusername/your-repo-name/main/simple_1688_amazon_url.user.js
+// @updateURL    https://raw.githubusercontent.com/7moc/share/master/monkey/simple_1688_amazon_url.user.js
+// @downloadURL  https://raw.githubusercontent.com/7moc/share/master/monkey/simple_1688_amazon_url.user.js
 // @grant        none
 // ==/UserScript==
 
