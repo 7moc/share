@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         简化亚马逊和1688网址
 // @namespace    http://tampermonkey.net/
-// @version      1.12
+// @version      1.13
 // @description  Automatically simplify Amazon and 1688 URLs to include just the essential parts on page load.
 // @author       You
 // @match        https://www.amazon.com/*/dp/*
