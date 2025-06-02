@@ -11,17 +11,6 @@
     "remarks": "体积和长度限制：三边之和≤90厘米，最长边≤60厘米。"
   },
   {
-    "supplyerName": "GUO",
-    "deliveryType": "空运",
-    "channelName": "GUO Express Extra Small-空运",
-    "weightRange": "1-500",
-    "priceRange": "0-138",
-    "deliveryTime": "5-10",
-    "baseShippingFee": 4,
-    "costPerGram": 0.045,
-    "remarks": "体积和长度限制：三边之和≤90厘米，最长边≤60厘米。"
-  },
-  {
     "supplyerName": "UNI",
     "deliveryType": "陆空",
     "channelName": "UNI Standard Extra Small-陆空",
