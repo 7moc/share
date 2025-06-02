@@ -1,5 +1,7 @@
 [
   {
+    "supplyerName": "UNI",
+    "deliveryType": "空运",
     "channelName": "UNI Express Extra Small-空运",
     "weightRange": "1-500",
     "priceRange": "0-138",
@@ -9,6 +11,8 @@
     "remarks": "体积和长度限制：三边之和≤90厘米，最长边≤60厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "陆空",
     "channelName": "UNI Standard Extra Small-陆空",
     "weightRange": "1-500",
     "priceRange": "0-138",
@@ -18,6 +22,8 @@
     "remarks": "体积和长度限制：三边之和≤90厘米，最长边≤60厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "陆运",
     "channelName": "UNI Economy Extra Small-陆运",
     "weightRange": "1-500",
     "priceRange": "0-138",
@@ -27,6 +33,8 @@
     "remarks": "体积和长度限制：三边之和≤90厘米，最长边≤60厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "空运",
     "channelName": "UNI Express Budget-空运",
     "weightRange": "501-25000",
     "priceRange": "0-138",
@@ -36,16 +44,19 @@
     "remarks": "体积和长度限制：三边之和≤150厘米，最长边≤60厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "陆空",
     "channelName": "UNI Standard Budget-陆空",
     "weightRange": "501-25000",
     "priceRange": "0-138",
-
     "deliveryTime": "10-15",
     "baseShippingFee": 23,
     "costPerGram": 0.025,
     "remarks": "体积和长度限制：三边之和≤150厘米，最长边≤60厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "陆运",
     "channelName": "UNI Economy Budget-陆运",
     "weightRange": "501-25000",
     "priceRange": "0-138",
@@ -55,6 +66,8 @@
     "remarks": "体积和长度限制：三边之和≤150厘米，最长边≤60厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "空运",
     "channelName": "UNI Express Small-空运",
     "weightRange": "1-2000",
     "priceRange": "139-644",
@@ -64,6 +77,8 @@
     "remarks": "体积和长度限制：三边之和≤150厘米，最长边≤60厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "陆空",
     "channelName": "UNI Standard Small-陆空",
     "weightRange": "1-2000",
     "priceRange": "139-644",
@@ -73,6 +88,8 @@
     "remarks": "体积和长度限制：三边之和≤150厘米，最长边≤60厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "陆运",
     "channelName": "UNI Economy Small-陆运",
     "weightRange": "1-2000",
     "priceRange": "139-644",
@@ -82,6 +99,8 @@
     "remarks": "体积和长度限制：三边之和≤150厘米，最长边≤60厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "空运",
     "channelName": "UNI Express Big-空运",
     "weightRange": "2001-25000",
     "priceRange": "139-644",
@@ -91,6 +110,8 @@
     "remarks": "体积和长度限制：三边之和≤250厘米，最长边≤150厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "陆空",
     "channelName": "UNI Standard Big-陆空",
     "weightRange": "2001-25000",
     "priceRange": "139-644",
@@ -100,6 +121,8 @@
     "remarks": "体积和长度限制：三边之和≤250厘米，最长边≤150厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "陆运",
     "channelName": "UNI Economy Big-陆运",
     "weightRange": "2001-25000",
     "priceRange": "139-644",
@@ -109,6 +132,8 @@
     "remarks": "体积和长度限制：三边之和≤250厘米，最长边≤150厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "空运",
     "channelName": "UNI Express Premium Small-空运",
     "weightRange": "1-5000",
     "priceRange": "645-23000",
@@ -118,6 +143,8 @@
     "remarks": "体积和长度限制：三边之和≤250厘米，最长边≤150厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "陆空",
     "channelName": "UNI Standard Premium Small-陆空",
     "weightRange": "1-5000",
     "priceRange": "645-23000",
@@ -127,6 +154,8 @@
     "remarks": "体积和长度限制：三边之和≤250厘米，最长边≤150厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "陆运",
     "channelName": "UNI Economy Premium Small-陆运",
     "weightRange": "1-5000",
     "priceRange": "645-23000",
@@ -136,6 +165,8 @@
     "remarks": "体积和长度限制：三边之和≤250厘米，最长边≤150厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "空运",
     "channelName": "UNI Express Premium Big-空运",
     "weightRange": "5001-25000",
     "priceRange": "645-23000",
@@ -145,6 +176,8 @@
     "remarks": "体积和长度限制：三边之和≤310厘米，最长边≤150厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "陆空",
     "channelName": "UNI Standard Premium Big-陆空",
     "weightRange": "5001-25000",
     "priceRange": "645-23000",
@@ -154,6 +187,8 @@
     "remarks": "体积和长度限制：三边之和≤310厘米，最长边≤150厘米。"
   },
   {
+    "supplyerName": "UNI",
+    "deliveryType": "陆运",
     "channelName": "UNI Economy Premium Big-陆运",
     "weightRange": "5001-25000",
     "priceRange": "645-23000",
